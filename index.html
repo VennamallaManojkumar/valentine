@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You, My Valentine ❤️</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== FLOATING HEARTS ========== -->
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <!-- ========== MUSIC TOGGLE ========== -->
+  <button id="music-toggle" class="music-btn" aria-label="Toggle music">
+    <span class="music-icon">♪</span>
+  </button>
+  <audio id="bg-music" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- =====================================================================
+       SECTION 1, HERO
+       ===================================================================== -->
+  <section id="hero" class="section hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <h1 class="hero-title">To The Most Beautiful Part of My Life <span class="heart-icon">❤️</span></h1>
+      <p class="hero-sub">Every love story is beautiful, but ours is my favorite.</p>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 2, OUR STORY
+       ===================================================================== -->
+  <section id="our-story" class="section story">
+    <div class="story-container">
+      <div class="story-text reveal reveal-left">
+        <h2 class="section-title">Our Story</h2>
+        <p>
+          From the moment you walked into my life, everything felt different.
+          The world became softer, and my heart found its home in you.
+        </p>
+        <p>
+          Even though miles lie between us, I have never felt closer to anyone. These days apart have only made me realize how deeply I love you. Every morning to every night, I miss you more than words can explain.
+        </p>
+        <p>
+          You are the most precious person in my world.
+          Your care, your efforts, the way you think about me even while chasing your dreams, it melts my heart every time.
+        </p>
+        <p>
+          If I ever hurt you, please know it is never intentional. I am still learning, but one thing I am always sure of is this, I choose you.
+        </p>
+        <p>
+          I want my future with you.
+          I have loved you, I love you now, and I will love you forever, Bangaram 🤍
+        </p>
+      </div>
+      <div class="story-image reveal reveal-right">
+        <img src="images/SheOnBoatIamPeddeling.jpg" alt="Our beautiful memory on the boat" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 3, CINEMATIC PARALLAX (Landscape image)
+       ===================================================================== -->
+  <section class="section cinematic-section parallax-section" style="background-image: url('images/sheInPinkAtFlowerGarden.JPG');">
+    <div class="cinematic-overlay"></div>
+    <div class="cinematic-text reveal">
+      <p class="cinematic-quote">"In all the world, there is no heart for me like yours."</p>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 4, "YOU", Her Beauty Showcase
+       ===================================================================== -->
+  <section id="you" class="section you-section">
+    <h2 class="section-title reveal">You ❤️</h2>
+    <p class="section-subtitle reveal">Every version of you takes my breath away</p>
+
+    <div class="you-grid">
+      <div class="you-card you-card--large reveal">
+        <img src="images/sheInRedDress.JPG" alt="Stunning in red" loading="lazy" />
+        <div class="you-card-overlay"><span>My heart skips</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/sheInGreenDress.jpg" alt="Beautiful in green" loading="lazy" />
+        <div class="you-card-overlay"><span>Effortlessly beautiful</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/sheInPinkBackgroundFlowers.jpg" alt="Among the flowers" loading="lazy" />
+        <div class="you-card-overlay"><span>Prettier than flowers</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/SheInWhiteAndBlue1.JPG" alt="In white and blue" loading="lazy" />
+        <div class="you-card-overlay"><span>Pure elegance</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/SheInWhiteAndBlue2.JPG" alt="Another beautiful moment" loading="lazy" />
+        <div class="you-card-overlay"><span>You glow different</span></div>
+      </div>
+      <div class="you-card you-card--large reveal">
+        <img src="images/sheInWhiteDressHoldingRose1.jpg" alt="Holding a rose" loading="lazy" />
+        <div class="you-card-overlay"><span>Even roses envy you</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/sheInWhiteDressHoldingRose2.jpg" alt="Rose and grace" loading="lazy" />
+        <div class="you-card-overlay"><span>My favorite view</span></div>
+      </div>
+      <div class="you-card reveal">
+        <img src="images/sheBustingCrackers.jpg" alt="Bursting crackers" loading="lazy" />
+        <div class="you-card-overlay"><span>Full of life</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 5, OUR MEMORIES GALLERY (11 couple photos)
+       ===================================================================== -->
+  <section id="memories" class="section gallery-section">
+    <h2 class="section-title reveal">Our Memories</h2>
+    <p class="section-subtitle reveal">Every picture holds a thousand feelings...</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item--tall reveal">
+        <img src="images/weBoth1.JPG" alt="Together" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth2.JPG" alt="Us" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth3.JPG" alt="Our moment" loading="lazy" />
+      </div>
+      <div class="gallery-item gallery-item--tall reveal">
+        <img src="images/weBoth5.jpg" alt="Side by side" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth6.jpg" alt="Always together" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/WeBoth7.jpg" alt="Our happiness" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth8.jpg" alt="Simple joys" loading="lazy" />
+      </div>
+      <div class="gallery-item gallery-item--tall reveal">
+        <img src="images/weBoth9.jpg" alt="Close together" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth10.jpg" alt="Us always" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth11.jpg" alt="Another page" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal">
+        <img src="images/weBoth12.jpg" alt="Never ending story" loading="lazy" />
+      </div>
+      <div class="gallery-item gallery-item--video reveal">
+        <video autoplay muted loop playsinline>
+          <source src="images/weTogetherInAuto.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 6, MOONLIGHT CINEMATIC
+       ===================================================================== -->
+  <section class="section moonlight-section">
+    <div class="moonlight-overlay"></div>
+    <div class="moonlight-content">
+      <div class="moonlight-images reveal">
+        <div class="moonlight-img moonlight-img--1">
+          <img src="images/WeBothInMoonLight.jpg" alt="Together in moonlight" loading="lazy" />
+        </div>
+        <div class="moonlight-img moonlight-img--2">
+          <img src="images/weBothCapturingMoon.jpg" alt="Capturing the moon together" loading="lazy" />
+        </div>
+      </div>
+      <p class="moonlight-quote reveal">"I loved you then, I love you still. I always have, I always will."</p>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 7, HER SPECIAL DAY
+       ===================================================================== -->
+  <section id="special-day" class="section special-day-section">
+    <div class="special-day-content">
+      <h2 class="section-title reveal">The Day You Were Born, The World Got Luckier</h2>
+      <div class="special-day-image reveal">
+        <img src="images/weBothSpecialPic.jpg" alt="Her special birthday moment" loading="lazy" />
+      </div>
+      <p class="special-day-text reveal">
+        This day gave me the most beautiful soul I've ever known. Every year, I celebrate, I celebrate the day the universe decided to create someone perfect for me.
+      </p>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 8, FLOATING COLLAGE
+       ===================================================================== -->
+  <section class="section collage-section">
+    <h2 class="section-title reveal">Timeless</h2>
+    <div class="collage-container reveal">
+      <div class="collage-img collage-img--1">
+        <img src="images/weBothBlackAndWhite.jpg" alt="Timeless in black and white" loading="lazy" />
+      </div>
+      <div class="collage-img collage-img--2">
+        <img src="images/weBoth1.JPG" alt="Together forever" loading="lazy" />
+      </div>
+      <div class="collage-img collage-img--3">
+        <img src="images/ourHandsOnEachOther.jpg" alt="Hands together" loading="lazy" />
+      </div>
+    </div>
+    <p class="collage-caption reveal">Some moments become forever...</p>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 9, SPECIAL MESSAGE
+       ===================================================================== -->
+  <section id="message" class="section message-section">
+    <div class="message-hearts" aria-hidden="true"></div>
+    <div class="message-content reveal">
+      <h2 class="section-title">A Message From My Heart</h2>
+      <div class="typing-container">
+        <p id="typed-text" class="typed-message"></p>
+        <span class="typing-cursor">|</span>
+      </div>
+      <div class="message-below reveal">
+        <p>You make even the simplest days feel extraordinary. With you, love doesn't just exist, it breathes, it grows, it feels alive in every little thing we share.</p>
+        <p>You belong with me the way the moon belongs to the sky, and the stars belong with the moon, effortlessly, beautifully, as if it was always meant to be that way.</p>
+        <p>And I don't know why… but after you, I will never seek love again. Because if I ever do, I know I'll only be searching for pieces of you in everyone I meet.</p>
+        <p>I am endlessly grateful for you, Sanjana.<br/>Loving you is the most beautiful thing my heart has ever known. 🤍</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 10, FINAL SURPRISE
+       ===================================================================== -->
+  <section id="surprise" class="section surprise-section">
+    <div class="surprise-content reveal">
+      <p class="surprise-quote">"You are my today and all of my tomorrows."</p>
+      <button id="heart-btn" class="heart-button">
+        Click For My Heart <span>💌</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ========== VALENTINE MODAL ========== -->
+  <div id="valentine-modal" class="modal-overlay">
+    <div class="modal-content">
+      <h3 class="modal-title">Will you be my forever Valentine?</h3>
+      <div class="modal-image">
+        <img src="images/weBoth2.JPG" alt="Us" />
+      </div>
+      <div class="modal-buttons">
+        <button class="modal-btn modal-btn--yes" data-answer="yes">YES ❤️</button>
+        <button class="modal-btn modal-btn--always" data-answer="always">Always ❤️</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CONFETTI CANVAS ========== -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p class="signature">Made with love, <span class="signature-name">Manoj</span> ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
